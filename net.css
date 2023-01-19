@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./background-img.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+body form{
+    border: 5px solid #fff971b8;
+    display: flex;
+    box-shadow: 0px 0px 5px 2px #f7c6b5;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding: 4%;
+    margin: auto;
+}
+body form div label{
+    font-size: 2rem;
+    text-transform: capitalize;
+    color: #091b5bde;
+    display: block;
+}
+body form div .net-value{
+    color: #142c36;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #091b5b;
+    margin: 5px 25px;
+    padding: 10px;
+    font-size: 1.25rem;
+}
+body  form div  input:focus {
+    border: 2px solid #10445a87;
+    box-shadow: 0px 1px 12px -5px #000000b5;
+    outline: none;
+}
+body form div p{
+        color: rgb(255, 255, 255);
+        background-color: rgb(255, 255, 255);
+        border: 1px solid #091b5b;
+        width: 130px;
+        height: 45px;
+        border-radius: 10px;
+        outline: none;
+        display: inline-block;
+        padding: 10px;
+        font-size: 1.5rem;
+}
+body form div .clear,
+.calc{
+    width: 25%;
+    height: 45px;
+    background-color: #546462;
+    color: #f7c6b5;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-family: emoji;
+    border: none;
+    border-radius: 10px;
+    margin: 10px; 
+    text-transform:capitalize;
+}
+body form div{
+    text-align: center;
+    margin: 5% 3%;
+}
